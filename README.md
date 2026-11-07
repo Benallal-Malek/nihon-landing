@@ -2,8 +2,6 @@
 
 A responsive landing page for a Japanese language school, built with HTML, CSS, and JavaScript.
 
-**[Open the live demo](https://benallal-malek.github.io/nihon-landing/)**
-
 <img src="assets/images/hero.webp" alt="Nihon landing page hero illustration" width="720">
 
 ## Features
