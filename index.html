@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nihon - онлайн-школа японского языка с живым общением, понятной программой и поддержкой преподавателя.">
+  <title>Nihon - японский язык</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Nihon">
+        <span class="brand__mark" aria-hidden="true">
+          <span class="brand__torii"></span>
+          <span class="brand__waves"></span>
+        </span>
+        <span class="brand__text">
+          <strong>NIHON</strong>
+          <span>японский язык</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="mobile-menu" data-nav aria-label="Основная навигация">
+        <a href="#about">О курсе</a>
+        <a href="#program">Программа</a>
+        <a href="#teacher">Преподаватели</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#signup">Цены</a>
+        <a href="#footer">Блог</a>
+      </nav>
+
+      <a class="button button--small header__cta" href="#signup">Записаться на урок</a>
+
+      <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-light" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <h1 id="hero-title">Изучайте японский язык <span>легко и с интересом</span></h1>
+          <p class="hero__lead">Современная методика, живое общение и культура Японии в каждом уроке.</p>
+
+          <div class="hero__actions">
+            <a class="button" href="#signup">Записаться на первый урок</a>
+            <a class="button button--secondary" href="#program" aria-label="Смотреть видео о программе курса">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+              Смотреть видео
+            </a>
+          </div>
+
+          <ul class="trust-list" aria-label="Преимущества курса">
+            <li>
+              <span class="trust-icon trust-icon--cloud" aria-hidden="true"></span>
+              <span>Для начинающих<br>и продолжающих</span>
+            </li>
+            <li>
+              <span class="trust-icon trust-icon--clock" aria-hidden="true"></span>
+              <span>Гибкий график<br>обучения</span>
+            </li>
+            <li>
+              <span class="trust-icon trust-icon--people" aria-hidden="true"></span>
+              <span>Поддержка и практика<br>каждый день</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <img src="assets/images/hero.webp" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits section-light" id="about" aria-labelledby="benefits-title">
+      <div class="container benefits__grid">
+        <div class="benefits__intro">
+          <div class="heading-with-flower">
+            <h2 id="benefits-title">Почему выбирают нас</h2>
+            <span aria-hidden="true">桜</span>
+          </div>
+          <div class="section-rule" aria-hidden="true"></div>
+          <img class="benefits__landscape" src="assets/images/japanese-landscape.webp" alt="Японский пейзаж с пагодой и Фудзи">
+        </div>
+
+        <div class="benefit-cards">
+          <article class="benefit-card">
+            <img src="assets/images/benefit-conversation.webp" alt="" aria-hidden="true">
+            <div>
+              <h3>Живое общение</h3>
+              <p>Практикуйте японский с первого занятия в диалогах и ролевых ситуациях.</p>
+            </div>
+          </article>
+          <article class="benefit-card">
+            <img src="assets/images/benefit-mentorship.webp" alt="" aria-hidden="true">
+            <div>
+              <h3>Опытные преподаватели</h3>
+              <p>Носители языка и сертифицированные преподаватели с опытом работы со студентами.</p>
+            </div>
+          </article>
+          <article class="benefit-card">
+            <img src="assets/images/benefit-schedule.webp" alt="" aria-hidden="true">
+            <div>
+              <h3>Удобный формат</h3>
+              <p>Онлайн-уроки в любое время из любой точки мира. Подойдет даже при плотном графике.</p>
+            </div>
+          </article>
+          <article class="benefit-card">
+            <img src="assets/images/benefit-study-materials.webp" alt="" aria-hidden="true">
+            <div>
+              <h3>Материалы и поддержка</h3>
+              <p>Авторские материалы, домашние задания с обратной связью и помощь каждый день.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="program dark-section" id="program" aria-labelledby="program-title">
+      <div class="container">
+        <div class="section-heading section-heading--center">
+          <h2 id="program-title">Программа курса</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </div>
+
+        <div class="course-flow" aria-label="Этапы обучения">
+          <article class="course-card">
+            <span class="course-card__number">1</span>
+            <h3>Хирагана</h3>
+            <img src="assets/images/hiragana.webp" alt="" aria-hidden="true">
+            <p>Изучите основы чтения и произношения хираганы.</p>
+          </article>
+          <article class="course-card">
+            <span class="course-card__number">2</span>
+            <h3>Катакана</h3>
+            <img src="assets/images/katakana.webp" alt="" aria-hidden="true">
+            <p>Освойте катакану и научитесь читать любые слова.</p>
+          </article>
+          <article class="course-card">
+            <span class="course-card__number">3</span>
+            <h3>Грамматика</h3>
+            <img src="assets/images/grammar.webp" alt="" aria-hidden="true">
+            <p>Понимайте структуру языка и стройте правильные предложения.</p>
+          </article>
+          <article class="course-card">
+            <span class="course-card__number">4</span>
+            <h3>Разговорная практика</h3>
+            <img src="assets/images/conversation-practice.webp" alt="" aria-hidden="true">
+            <p>Практикуйте живое общение и уверенно говорите на японском.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="teacher dark-section" id="teacher" aria-labelledby="teacher-title">
+      <div class="container teacher__grid">
+        <div class="teacher__portrait">
+          <img src="assets/images/teacher.webp" alt="Акико Сато, преподаватель японского языка">
+        </div>
+
+        <div class="teacher__content">
+          <p class="teacher__label">Ваш преподаватель</p>
+          <h2 id="teacher-title">Акико Сато</h2>
+          <p class="teacher__bio">Сертифицированный преподаватель японского языка с опытом более 8 лет. Помогу вам говорить на японском уверенно и с удовольствием.</p>
+
+          <div class="reviews" id="reviews" aria-label="Отзывы студентов">
+            <article class="review-card">
+              <div class="stars" aria-label="5 из 5">★★★★★</div>
+              <p>Уроки интересные и понятные. Уже через месяц смогла читать на японском!</p>
+              <div class="review-card__person">
+                <img src="assets/images/review-avatar-maria.webp" alt="">
+                <span>Мария, 24 года</span>
+              </div>
+            </article>
+            <article class="review-card">
+              <div class="stars" aria-label="5 из 5">★★★★★</div>
+              <p>Отличная методика и поддержка на каждом этапе обучения.</p>
+              <div class="review-card__person">
+                <img src="assets/images/review-avatar-igor.webp" alt="">
+                <span>Игорь, 31 год</span>
+              </div>
+            </article>
+            <article class="review-card">
+              <div class="stars" aria-label="5 из 5">★★★★★</div>
+              <p>Занятия с носителями - это совсем другой уровень. Рекомендую!</p>
+              <div class="review-card__person">
+                <img src="assets/images/review-avatar-ekaterina.webp" alt="">
+                <span>Екатерина, 28 лет</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="signup section-light" id="signup" aria-labelledby="signup-title">
+      <div class="container signup__grid">
+        <div class="signup__visual" aria-hidden="true">
+          <img src="assets/images/signup-illustration.webp" alt="">
+        </div>
+
+        <div class="signup__copy">
+          <h2 id="signup-title">Запишитесь на первый урок</h2>
+          <ul class="lesson-benefits">
+            <li>
+              <span aria-hidden="true">無</span>
+              <span>Пробный урок - бесплатно</span>
+            </li>
+            <li>
+              <span aria-hidden="true">目</span>
+              <span>Определим ваш уровень и цель</span>
+            </li>
+            <li>
+              <span aria-hidden="true">本</span>
+              <span>Подберем программу под вас</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form-card" data-signup-form>
+          <label>
+            <span>Ваше имя</span>
+            <input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required>
+          </label>
+          <label>
+            <span>E-mail</span>
+            <input type="email" name="email" placeholder="E-mail" autocomplete="email" required>
+          </label>
+          <label>
+            <span>Телефон</span>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required>
+          </label>
+          <button class="button form-card__button" type="submit">Записаться на первый урок</button>
+          <p class="form-card__note">Мы не передаем ваши данные третьим лицам</p>
+          <p class="form-card__status" data-form-status role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <div class="container footer__inner">
+      <a class="brand brand--footer" href="#top" aria-label="Nihon">
+        <span class="brand__mark" aria-hidden="true">
+          <span class="brand__torii"></span>
+          <span class="brand__waves"></span>
+        </span>
+        <span class="brand__text">
+          <strong>NIHON</strong>
+          <span>японский язык</span>
+        </span>
+      </a>
+
+      <div class="socials" aria-label="Социальные сети">
+        <a href="#" aria-label="ВКонтакте">vk</a>
+        <a href="#" aria-label="Telegram">tg</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="YouTube">yt</a>
+      </div>
+
+      <address class="contacts">
+        <a href="mailto:info@nihon-school.ru">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 5h16v14H4z"></path>
+            <path d="m4 7 8 6 8-6"></path>
+          </svg>
+          info@nihon-school.ru
+        </a>
+        <a href="tel:+74951234567">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.7.6 2.5a2 2 0 0 1-.5 2.1L8 9.5a16 16 0 0 0 6.5 6.5l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.6.5 2.5.6A2 2 0 0 1 22 16.9z"></path>
+          </svg>
+          +7 (495) 123-45-67
+        </a>
+      </address>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
